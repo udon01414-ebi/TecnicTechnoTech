@@ -1,0 +1,341 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  box-sizing: border-box;
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 47px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 100;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  width: auto;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.header-nav .logo {
+  display: block;
+  width: 400px;
+  height: auto;
+}
+
+.header-nav .logo img {
+  width: 80px;
+  height: auto;
+}
+
+.header-nav .logo p {
+  width: 320px;
+  height: auto;
+  font-size: 25px;
+
+}
+
+.header-nav .logo a {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #646464;
+  cursor: pointer;
+}
+
+.header-nav ul.main-menu {
+  align-items: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav ul.main-menu>li {
+  list-style: none;
+  padding: 10px 18px;
+  position: relative;
+}
+
+.header-nav ul.main-menu>li .menu-link {
+  color: #646464;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav ul.main-menu>li:hover::after {
+  background-color: #cceeff;
+  border-radius: 30px;
+  bottom: -9px;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  overflow: hidden;
+  width: auto;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #cceeff;
+  padding: 8px 0;
+  min-width: 160px;
+}
+
+.sub-menu:before {
+  filter: blur(6px);
+}
+
+.sub-menu>li {
+  list-style: none;
+}
+
+.main-menu>li:hover .sub-menu {
+  display: block;
+  width: 200%;
+}
+
+.main-menu>li:hover .sub-menu a {
+  text-decoration: none;
+  color: #646464;
+  cursor: pointer;
+}
+
+.main-menu>li:hover .sub-menu li:hover {
+  opacity: 0.5;
+}
+
+
+
+
+
+.contents {
+  background-color: #aaa;
+}
+
+.contents .top-top {
+  width: 100vw;
+  height: 600px;
+}
+
+.contents .top-top-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  position: relative;
+}
+
+.contents .top-top-image-text {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-size: 70px;
+  font-family: "BIZ UD明朝 Medium";
+}
+
+
+.contents .top-company {
+  padding: 30px;
+  width: 600px;
+  height: 400px;
+  margin: 50px auto;
+  position: relative;
+  background-color: #fff;
+}
+
+.contents .top-company-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  position: relative;
+  opacity: 0.3;
+}
+
+.contents .top-company-text1 {
+  position: absolute;
+  margin: 25px;
+  top: 25px;
+  left: 3%;
+  font-size: 35px;
+  background-color: rgba(0, 255, 255, 0.29);
+}
+
+.contents .top-company-text2 {
+  position: absolute;
+  margin: 80px 150px 25px 25px;
+  top: 85px;
+  left: 5%;
+  font-size: 30px;
+  font-family: "BIZ UD明朝 Medium";
+}
+
+.contents .top-company-text3 {
+  position: absolute;
+  margin: 25px 200px 25px 25px;
+  top: 80%;
+  left: 5%;
+  font-size: 30px;
+  color: #000;
+  text-decoration: none;
+  background-color: rgba(130, 150, 200);
+}
+
+.contents .top-product {
+  padding: 30px;
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+  padding: auto;
+  position: relative;
+  background-color: #fff;
+}
+
+.contents .top-product-text1 {
+  position: absolute;
+  margin: 25px;
+  top: 25px;
+  left: 3%;
+  font-size: 35px;
+  background-color: rgba(0, 255, 255, 0.29);
+}
+
+.contents .top-product-text2 {
+  position: absolute;
+  margin: 80px 70px 25px 25px;
+  top: 50px;
+  left: 5%;
+  font-size: 23px;
+  font-family: "BIZ UD明朝 Medium";
+}
+
+.contents .top-product-image {
+  width: 110%;
+  height: 110%;
+  object-fit: fill;
+  position: relative;
+  opacity: 0.8;
+}
+
+.contents .top-product-text {
+  position: relative;
+  margin: auto;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  background-color: rgba(130, 150, 200);
+}
+
+.contents .top-product-enterprise {
+  width: 350px;
+  height: 250px;
+  margin: 25px;
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+
+.contents .top-product-web {
+  width: 350px;
+  height: 250px;
+  margin: 25px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+
+.contents .top-product-iot {
+  width: 350px;
+  height: 250px;
+  margin: 25px;
+  position: absolute;
+  top: 60%;
+  left: 0;
+}
+
+.contents .top-product-enbedded {
+  width: 350px;
+  height: 250px;
+  margin: 25px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+}
+
+.contents .top-recruit {
+  padding: 30px;
+  width: 800px;
+  height: 200px;
+  margin: 50px auto;
+  padding: auto;
+  position: relative;
+  background-color: #fff;
+}
+
+.contents .top-recruit-text3 {
+  position: absolute;
+  margin: 25px;
+  top: 70%;
+  left: 5%;
+  font-size: 30px;
+  color: #000;
+  text-decoration: none;
+  background-color: rgba(130, 150, 200);
+}
+
+.contents .top-recruit-text4 {
+  position: absolute;
+  margin: 25px;
+  top: 70%;
+  left: 50%;
+  font-size: 30px;
+  color: #000;
+  text-decoration: none;
+  background-color: rgba(130, 150, 200);
+}
+
+.contents .top-contact {
+  padding: 30px;
+  width: 250px;
+  height: 75px;
+  margin: auto;
+  padding: auto;
+  position: relative;
+  background-color: #fff;
+}
+
+.contents .top-contact-text {
+  position: absolute;
+  top: 12%;
+  left: 12%;
+  margin: 25px;
+  font-size: 30px;
+  color: #000;
+  text-decoration: none;
+  background-color: rgba(130, 150, 200);
+}
+
+.contents .top-bottom {
+  width: 100%;
+  height: 100px;
+  background-color: #aaa;
+}
