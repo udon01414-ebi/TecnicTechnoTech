@@ -70,9 +70,8 @@ body {
 
 .header-nav ul.main-menu>li .menu-link {
   color: #646464;
-  cursor: pointer;
+  cursor: default;
   font-size: 14px;
-  text-decoration: none;
   display: block;
   position: relative;
   margin: 0;
@@ -139,20 +138,31 @@ body {
 }
 
 .contents .top-top-image {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 180vw;
+  top: -80px;
   object-fit: fill;
-  position: relative;
+  position: absolute;
+  filter: blur(3px);
 }
 
-.contents .top-top-image-text {
+.contents .top-top-image-text1 {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 5%;
-  font-size: 70px;
+  font-size: 100px;
+  color: #fff;
   font-family: "BIZ UD明朝 Medium";
 }
 
+.contents .top-top-image-text2 {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-size: 100px;
+  color: #fff;
+  font-family: "BIZ UD明朝 Medium";
+}
 
 .contents .top-company {
   padding: 30px;
