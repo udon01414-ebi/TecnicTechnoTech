@@ -375,6 +375,101 @@ body {
 
 
 
+
+
+.contents .contact {
+  width: 1500px;
+  height: 200px;
+  margin: 50px auto;
+  position: relative;
+}
+
+
+.contents .contact-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: fill;
+  filter: blur(1px);
+}
+
+.contents .contact-image-text {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  font-size: 100px;
+  color: #333;
+  font-family: "BIZ UD明朝 Medium";
+}
+
+.contents .contact-recruit {
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  margin: 25px auto;
+  left: 5%;
+}
+
+.contents .contact-employee {
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  margin: 25px auto;
+  left: 35%;
+}
+
+.contents .contact-others {
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  margin: 25px auto;
+  left: 65%;
+}
+
+.contents .contact-text {
+  width: 100%;
+  height: 70px;
+  padding: auto;
+  margin: auto;
+  position: relative;
+  font-size: 25px;
+  color: #000;
+  background-color: rgba(130, 150, 200);
+}
+
+.contents .contact-employee-form {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  padding: 50px;
+}
+
+.contents .contact-employee-text {
+  width: 100%;
+  position: relative;
+  margin: auto 100px;
+  top: 10%;
+  right: 25%;
+  font-size: 15px;
+}
+
+.contents .contact-employee-textbox {
+  position: relative;
+  margin: auto 30px;
+  top: 10%;
+  width: 200px;
+  height: auto;
+}
+
+.contents .contact-employee-button {
+  position: relative;
+  margin: auto 30px;
+  top: 10%;
+}
+
+
+
 .footer {
   position: relative;
   width: 100%;
