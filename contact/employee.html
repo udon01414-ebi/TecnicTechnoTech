@@ -57,8 +57,8 @@
     <div class="contents">
         <div class="contact-employee-form">
             <p class="contact-employee-text">問い合わせる社員の担当事業部長名(苗字)を入力してください。</p>
-            <input type="text" name="name" class="contact-employee-textbox">
-            <button class="contact-employee-button">確認</button>
+            <input type="text" name="name" id="employee" class="contact-employee-textbox">
+            <button class="contact-employee-button" onclick="checkEmployee()">確認</button>
         </div>
     </div>
 
@@ -66,6 +66,31 @@
     <div class="footer">
         <p class="footer-text">Copyright © Tecnic Techno Tech All Rights Reserved.</p>
     </div>
+
+
+    <script>
+        function checkEmployee() {
+            if (document.getElementById("employee").value == "山口") {
+                window.location.href = "employee-spEmbedded.html";
+            } else if (isEmployee()) {
+                alert("現在この事業部長への問い合わせは休止しています。");
+            } else {
+                alert("入力された事業部長は存在しません");
+            }
+        }
+
+        function isEmployee() {
+            const employees = ["田中", "山本", "加藤", "山田", "木村", "清水", "池田"];
+            const inputName = document.getElementById("employee").value;
+            for (let i = 0; i < employees.length; i++) {
+                if (inputName === employees[i]) {
+                    return true;
+                }
+            }
+            return false;
+        }
+    </script>
+
 </body>
 
 </html>
