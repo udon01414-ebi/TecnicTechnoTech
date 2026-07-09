@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Tecnic Techno Tech</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style2.css">
 </head>
 
 <body>
@@ -75,14 +75,43 @@
     </header>
 
     <div class="contents">
-        <div class="org">
-            <p class="org-text">組織図</p>
-            <img src="../images/org.svg" class="org-image">
+        <div class="contact-employee-form">
+            <p class="contact-employee-text">特別人事部長の名前(苗字)を入力してください。</p>
+            <input type="text" name="name" id="employee" class="contact-employee-textbox">
+            <button class="contact-employee-button" onclick="window.setTimeout( checkEmployee, 500 );">確認</button>
         </div>
     </div>
+
+
     <div class="footer">
         <p class="footer-text">Copyright © Tecnic Techno Tech All Rights Reserved.</p>
     </div>
+
+
+    <script>
+        function checkEmployee() {
+            if (document.getElementById("employee").value == "山崎") {
+                alert("この部長は特別人事部の責任者です。特別人事部ページに移動します。");
+                window.location.href = "employee-spEmbedded.html";
+            } else if (isEmployee()) {
+                alert("現在この事業部長への問い合わせは休止しています。");
+            } else {
+                alert("入力された事業部長は存在しません");
+            }
+        }
+
+        function isEmployee() {
+            const employees = ["田中", "山本", "加藤", "山田", "木村", "清水", "池田"];
+            const inputName = document.getElementById("employee").value;
+            for (let i = 0; i < employees.length; i++) {
+                if (inputName === employees[i]) {
+                    return true;
+                }
+            }
+            return false;
+        }
+    </script>
+
 </body>
 
 </html>

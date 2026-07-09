@@ -115,9 +115,11 @@ body {
 }
 
 .main-menu>li:hover .sub-menu a {
-  text-decoration: none;
-  color: #646464;
   cursor: pointer;
+}
+
+.main-menu>li:hover .sub-menu p {
+  color: #646464;
 }
 
 .main-menu>li:hover .sub-menu li:hover {
@@ -171,6 +173,7 @@ body {
   margin: 50px auto;
   position: relative;
   background-color: #fff;
+  border-radius: 5px;
 }
 
 .contents .top-company-image {
@@ -188,6 +191,7 @@ body {
   left: 3%;
   font-size: 35px;
   background-color: rgba(0, 255, 255, 0.29);
+  border-radius: 5px;
 }
 
 .contents .top-company-text2 {
@@ -208,6 +212,7 @@ body {
   color: #000;
   text-decoration: none;
   background-color: rgba(130, 150, 200);
+  border-radius: 5px;
 }
 
 .contents .top-product {
@@ -218,6 +223,7 @@ body {
   padding: auto;
   position: relative;
   background-color: #fff;
+  border-radius: 5px;
 }
 
 .contents .top-product-text1 {
@@ -227,6 +233,7 @@ body {
   left: 3%;
   font-size: 35px;
   background-color: rgba(0, 255, 255, 0.29);
+  border-radius: 5px;
 }
 
 .contents .top-product-text2 {
@@ -253,6 +260,7 @@ body {
   color: #000;
   text-decoration: none;
   background-color: rgba(130, 150, 200);
+  border-radius: 5px;
 }
 
 .contents .top-product-enterprise {
@@ -299,6 +307,7 @@ body {
   padding: auto;
   position: relative;
   background-color: #fff;
+  border-radius: 5px;
 }
 
 .contents .top-recruit-text3 {
@@ -310,6 +319,7 @@ body {
   color: #000;
   text-decoration: none;
   background-color: rgba(130, 150, 200);
+  border-radius: 5px;
 }
 
 .contents .top-recruit-text4 {
@@ -321,6 +331,7 @@ body {
   color: #000;
   text-decoration: none;
   background-color: rgba(130, 150, 200);
+  border-radius: 5px;
 }
 
 .contents .top-contact {
@@ -331,6 +342,7 @@ body {
   padding: auto;
   position: relative;
   background-color: #fff;
+  border-radius: 5px;
 }
 
 .contents .top-contact-text {
@@ -342,6 +354,7 @@ body {
   color: #000;
   text-decoration: none;
   background-color: rgba(130, 150, 200);
+  border-radius: 5px;
 }
 
 .contents .top-bottom {
@@ -357,6 +370,7 @@ body {
   width: 100%;
   height: auto;
   padding: 50px 0;
+  background-color: #fff;
 }
 
 .contents .org-text {
@@ -435,6 +449,7 @@ body {
   font-size: 25px;
   color: #000;
   background-color: rgba(130, 150, 200);
+  border-radius: 5px;
 }
 
 .contents .contact-employee-form {
