@@ -136,14 +136,13 @@ body {
   background-color: #000;
 }
 
-.contents .spEmbedded-top-text1,
+.contents .title-text,
 .contents .spEmbedded-top-text2,
 .contents .spEmbedded-top-text3,
-.contents .spEmbedded-officer-text,
 .contents .spEmbedded-officer-th,
 .contents .spEmbedded-officer-td,
-.contents .spEmbedded-contact-text1,
-.contents .spEmbedded-contact-text2 {
+.contents .spEmbedded-contact-text2,
+.contents .checkSpHumanResources-top-text {
   color: #ddd;
 }
 
@@ -155,7 +154,7 @@ body {
   position: relative;
 }
 
-.contents .spEmbedded-top-text1 {
+.contents .title-text {
   font-size: 20px;
   border-left: 5px solid #f66;
 }
@@ -174,11 +173,6 @@ body {
   position: relative;
 }
 
-.contents .spEmbedded-officer-text {
-  font-size: 20px;
-  border-left: 5px solid #f66;
-}
-
 .contents .spEmbedded-officer-table,
 .contents .spEmbedded-officer-th,
 .contents .spEmbedded-officer-td {
@@ -193,11 +187,6 @@ body {
   position: relative;
 }
 
-.contents .spEmbedded-contact-text1 {
-  font-size: 20px;
-  border-left: 5px solid #f66;
-}
-
 .contents .spEmbedded-contact-text2 {}
 
 .contents .spEmbedded-contact-text3 {
@@ -205,6 +194,60 @@ body {
   padding: 5px 10px;
   border-radius: 5px;
 }
+
+
+
+
+
+
+.contents .checkSpHumanResources-top {
+  width: 600px;
+  height: auto;
+  margin: 50px auto;
+  position: relative;
+}
+
+.contents .checkSpHumanResources-top-text {
+  color: #f66;
+  font-size: 10px;
+  right: 0;
+}
+
+.contents .checkSpHumanResources-form {
+  width: 400px;
+  height: auto;
+  margin: 50px auto;
+  padding: 50px;
+  position: relative;
+  outline: 1px solid #f66;
+}
+
+.contents .checkSpHumanResources-form p {
+  color: #aaa;
+  margin: 15px 0 0 0;
+}
+
+.contents .checkSpHumanResources-form input {
+  margin: 15px auto;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  outline: 1px solid #666;
+  color: #aaa;
+}
+
+.contents .checkSpHumanResources-form button {
+  margin: 15px auto;
+  padding: 10px 0;
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  color: #f66;
+  outline: 1px solid #f66;
+}
+
+
 
 
 

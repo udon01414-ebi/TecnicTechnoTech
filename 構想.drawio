@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="ページ-1" id="SspNnKsi7fuRaBvJYO7E">
-    <mxGraphModel dx="1030" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="824" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,6 +63,13 @@
         <mxCell id="Oz_Tc0_ftmsHe5I9UQDS-38" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;特別組込み事業部&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="640" y="440" as="geometry" />
         </mxCell>
+        <mxCell id="8jVOORBlu2fCqjkz3l5s-9" edge="1" parent="1" source="Oz_Tc0_ftmsHe5I9UQDS-41" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="8jVOORBlu2fCqjkz3l5s-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Oz_Tc0_ftmsHe5I9UQDS-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;採用情報&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="440" y="200" as="geometry" />
         </mxCell>
@@ -84,7 +91,7 @@
         <mxCell id="Oz_Tc0_ftmsHe5I9UQDS-64" edge="1" parent="1" source="Oz_Tc0_ftmsHe5I9UQDS-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Oz_Tc0_ftmsHe5I9UQDS-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Oz_Tc0_ftmsHe5I9UQDS-49" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;兄の異動先の&lt;/font&gt;&lt;font style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9px;&quot;&gt;部署や&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9px;&quot;&gt;上司の&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9px;&quot;&gt;名前がない&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Oz_Tc0_ftmsHe5I9UQDS-49" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;兄の配属先の&lt;/font&gt;&lt;font style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9px;&quot;&gt;部署や&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9px;&quot;&gt;上司の&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9px;&quot;&gt;名前がない&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="290" y="340" as="geometry" />
         </mxCell>
         <mxCell id="Oz_Tc0_ftmsHe5I9UQDS-57" edge="1" parent="1" source="Oz_Tc0_ftmsHe5I9UQDS-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Oz_Tc0_ftmsHe5I9UQDS-49">
@@ -110,6 +117,14 @@
             <mxPoint x="660" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8jVOORBlu2fCqjkz3l5s-7" edge="1" parent="1" source="Oz_Tc0_ftmsHe5I9UQDS-63" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;strokeColor=default;" target="yNmSESkKe9NjBtatHqW6-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="420" />
+              <mxPoint x="620" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Oz_Tc0_ftmsHe5I9UQDS-63" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;責任者名と社員番号が&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;全国苗字ランキング&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="290" y="400" as="geometry" />
         </mxCell>
@@ -128,8 +143,23 @@
         <mxCell id="yNmSESkKe9NjBtatHqW6-10" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;人事部の部長名と&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;社員番号を入力&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="640" y="600" as="geometry" />
         </mxCell>
-        <mxCell id="yNmSESkKe9NjBtatHqW6-12" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;[アクション・謎解き]&lt;/font&gt;" vertex="1">
+        <mxCell id="8jVOORBlu2fCqjkz3l5s-2" edge="1" parent="1" source="yNmSESkKe9NjBtatHqW6-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="8jVOORBlu2fCqjkz3l5s-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yNmSESkKe9NjBtatHqW6-12" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;兄の社員番号を入力&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="640" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="8jVOORBlu2fCqjkz3l5s-4" edge="1" parent="1" source="8jVOORBlu2fCqjkz3l5s-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="8jVOORBlu2fCqjkz3l5s-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jVOORBlu2fCqjkz3l5s-1" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;パスワードを入力&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="640" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="8jVOORBlu2fCqjkz3l5s-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;特別人事部&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;兄の人事異動ページ&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="640" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="8jVOORBlu2fCqjkz3l5s-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;新卒採用&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="490" y="450" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

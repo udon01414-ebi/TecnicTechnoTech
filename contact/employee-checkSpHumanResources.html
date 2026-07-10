@@ -12,7 +12,7 @@
         <nav class="header-nav">
             <h1 class="logo">
                 <a href="../top.html">
-                    <img src="../images/logo.png" alt="">
+                    <img src="../images/logoV2.png" alt="">
                     <p>テクニックテクノテック</p>
                 </a>
             </h1>
@@ -57,7 +57,7 @@
                     <p class="menu-link">採用情報</p>
                     <ul class="sub-menu">
                         <li>
-                            <p href="../recruit/graduate.html">新卒採用</a>
+                            <a href="../recruit/graduate.html">新卒採用</a>
                         </li>
                         <li>
                             <p href="../recruit/career.html">キャリア採用</a>
@@ -75,10 +75,21 @@
     </header>
 
     <div class="contents">
-        <div class="contact-employee-form">
-            <p class="contact-employee-text">特別人事部長の名前(苗字)を入力してください。</p>
-            <input type="text" name="name" id="employee" class="contact-employee-textbox">
-            <button class="contact-employee-button" onclick="window.setTimeout( checkEmployee, 500 );">確認</button>
+        <div class="checkSpHumanResources-top">
+            <p class="title-text">特別人事部　社員照会フォーム</p>
+            <p class="checkSpHumanResources-top-text">※ 本フォームは社内関係者専用です。入力情報はすべて記録されます。</p>
+        </div>
+
+        <div class="checkSpHumanResources-form">
+            <p>担当人事部長の氏名（苗字）</p>
+            <input type="text" id="humanResourcesName" name="humanResourcesName" placeholder="例：山田">
+            <p>担当人事部長の社員番号</p>
+            <input type="text" id="humanResourcesNumber" name="humanResourcesNumber" placeholder="例：EMP-1234">
+            <p>照会対象の社員番号</p>
+            <input type="text" id="employeeNumber" name="employeeNumber" placeholder="例：EMP-1234">
+            <p>照会パスワード</p>
+            <input type="password" id="Password" name="Password" placeholder="パスワードを入力">
+            <button type="submit" id="submitButton" onclick="checkEmployee()">照会する</button>
         </div>
     </div>
 
@@ -90,25 +101,25 @@
 
     <script>
         function checkEmployee() {
-            if (document.getElementById("employee").value == "山崎") {
-                alert("この部長は特別人事部の責任者です。特別人事部ページに移動します。");
-                window.location.href = "employee-spEmbedded.html";
-            } else if (isEmployee()) {
-                alert("現在この事業部長への問い合わせは休止しています。");
-            } else {
-                alert("入力された事業部長は存在しません");
-            }
-        }
+            var humanResourcesName = document.getElementById("humanResourcesName").value;
+            var humanResourcesNumber = document.getElementById("humanResourcesNumber").value;
+            var employeeNumber = document.getElementById("employeeNumber").value;
+            var password = document.getElementById("Password").value;
 
-        function isEmployee() {
-            const employees = ["田中", "山本", "加藤", "山田", "木村", "清水", "池田"];
-            const inputName = document.getElementById("employee").value;
-            for (let i = 0; i < employees.length; i++) {
-                if (inputName === employees[i]) {
-                    return true;
-                }
+            if (humanResourcesName === "森" && humanResourcesNumber === "EMP-0022" && employeeNumber === "EMP-0000" && password === "saitekika") {
+                alert("照会が成功しました。ページを移行します。");
+                window.location.href = "employee-spHumanResources-0000.html";
+            } else if (humanResourcesName === "" || humanResourcesNumber === "" || employeeNumber === "" || password === "") {
+                alert("すべての項目を入力してください。");
+            } else if (humanResourcesName !== "森") {
+                alert("担当人事部長の氏名が正しくありません。");
+            } else if (humanResourcesNumber !== "EMP-0022") {
+                alert("担当人事部長の社員番号が正しくありません。");
+            } else if (password !== "saitekika") {
+                alert("照会パスワードが正しくありません。");
+            } else {
+                alert("入力情報に誤りがあります。");
             }
-            return false;
         }
     </script>
 
