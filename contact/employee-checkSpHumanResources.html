@@ -28,7 +28,7 @@
                             <p href="../product/web.html">Webアプリケーション開発</p>
                         </li>
                         <li>
-                            <p href="../product/iot.html">IoTシステム開発</p>
+                            <a href="../product/iot.html">IoTシステム開発</a>
                         </li>
                         <li>
                             <p href="../product/embedded.html">組込みシステム開発</p>
@@ -88,8 +88,9 @@
             <p>照会対象の社員番号</p>
             <input type="text" id="employeeNumber" name="employeeNumber" placeholder="例：EMP-1234">
             <p>照会パスワード</p>
-            <input type="password" id="Password" name="Password" placeholder="パスワードを入力">
-            <button type="submit" id="submitButton" onclick="checkEmployee()">照会する</button>
+            <input type="password" id="Password" name="Password" placeholder="パスワードを入力(英大文字)">
+            <button class="hintButton" id="hintButton" onclick="hint()">パスワードを忘れた場合はこちら</button>
+            <button type="submit" class="submitButton" id="submitButton" onclick="checkEmployee()">照会する</button>
         </div>
     </div>
 
@@ -98,8 +99,10 @@
         <p class="footer-text">Copyright © Tecnic Techno Tech All Rights Reserved.</p>
     </div>
 
-
     <script>
+        function hint() {
+            alert('IoTシステム開発　4-2-4-2-7-4-5-2')
+        }
         function checkEmployee() {
             var humanResourcesName = document.getElementById("humanResourcesName").value;
             var humanResourcesNumber = document.getElementById("humanResourcesNumber").value;

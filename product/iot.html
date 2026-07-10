@@ -75,14 +75,75 @@
     </header>
 
     <div class="contents">
-        <div class="org">
-            <p class="org-text">組織図</p>
-            <img src="../images/org.svg" class="org-image">
+        <div class="iot">
+            <div class="iot-top">
+                <p class="iot-top-text1">IoTシステム開発</p>
+                <p class="iot-top-text2">
+                    センサー・デバイスから基幹システムまでを一気通貫で設計・開発。
+                    <br> 当社が培ってきた組込み技術とネットワーク技術を組み合わせ、 社会インフラを支えるIoTソリューションを提供します。
+                </p>
+            </div>
+
+            <div class="iot-block">
+                <p class="iot-title">製品・ソリューション</p>
+                <ul class="iot-list">
+                    <li>
+                        <span class="product-title">センサーネットワーク構築</span>
+                        <span class="detail" onclick="error()">詳細はこちら　＞</span>
+                    </li>
+                    <li>
+                        <span class="product-title">エッジコンピューティング</span>
+                        <span class="detail" onclick="error()">詳細はこちら　＞</span>
+                    </li>
+                    <li>
+                        <span class="product-title">デバイス監視・管理</span>
+                        <span class="detail" onclick="error()">詳細はこちら　＞</span>
+                    </li>
+                    <li>
+                        <span class="product-title">セキュアな通信設計</span>
+                        <span class="detail" onclick="error()">詳細はこちら　＞</span>
+                    </li>
+                    <li>
+                        <span class="product-title">データ可視化・分析</span>
+                        <span class="detail" onclick="error()">詳細はこちら　＞</span>
+                    </li>
+                    <li>
+                        <span class="product-title">リモートファームウェア更新</span>
+                        <span class="detail" onclick="error()">詳細はこちら　＞</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="iot-block">
+                <p class="iot-title">開発での主な使用技術</p>
+                <ul class="iot-tech-list">
+                    <li>UART Driver</li>
+                    <li>Cache Controller</li>
+                    <li>Flash Memory</li>
+                    <li>Mutex Lock</li>
+                    <li>Network Stack</li>
+                    <li>Ethernet Driver</li>
+                    <li>Reset Handler</li>
+                    <li>Semaphore</li>
+                </ul>
+            </div>
+
+            <div class="iot-block">
+                <button>IoTシステム開発のご相談はこちらから</button>
+            </div>
         </div>
     </div>
+
+
     <div class="footer">
         <p class="footer-text">Copyright © Tecnic Techno Tech All Rights Reserved.</p>
     </div>
+
+    <script>
+        function error() {
+            alert("ページは準備中のため、表示できません。")
+        }
+    </script>
 </body>
 
 </html>

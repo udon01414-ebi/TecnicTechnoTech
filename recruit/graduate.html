@@ -28,7 +28,7 @@
                             <p href="../product/web.html">Webアプリケーション開発</p>
                         </li>
                         <li>
-                            <p href="../product/iot.html">IoTシステム開発</p>
+                            <a href="../product/iot.html">IoTシステム開発</a>
                         </li>
                         <li>
                             <p href="../product/embedded.html">組込みシステム開発</p>
@@ -83,12 +83,12 @@
 
             <div class="graduate-block">
                 <p class="graduate-title">「テクニックテクノテックで働くということ」</p>
-                <p>
+                <p class="graduate-about-text">
                     テクニックテクノテックで働くということは、<b>あなた自身が社会の一部になる</b>ということです。
-                    <br>私たちの開発する組込みシステムは、金融・医療・インフラなど、社会の根幹を支えています。そのシステムが止まれば、社会が止まる。そのような責任ある仕事に、あなたは携わることになります。
-                    <br>入社後はまず、当社独自の研修プログラムへの参加をお願いしています。研修では、個人の思考パターンや問題解決能力を最適化するためのカリキュラムを提供します。修了までの期間は個人差がありますが、修了した社員は<b>例外なく、高いパフォーマンスを発揮しています</b>。
-                    <br>私たちはあなたの能力を信じています。そして、あなたにも私たちを信じてほしいと思っています。
-                    <br><b>ここに来れば、あなたは変われます</b>。
+                    <br><br>私たちの開発する組込みシステムは、金融・医療・インフラなど、社会の根幹を支えています。そのシステムが止まれば、社会が止まる。そのような責任ある仕事に、あなたは携わることになります。
+                    <br><br>入社後はまず、当社独自の研修プログラムへの参加をお願いしています。研修では、個人の思考パターンや問題解決能力を最適化するためのカリキュラムを提供します。修了までの期間は個人差がありますが、修了した社員は<b>例外なく、高いパフォーマンスを発揮しています</b>。
+                    <br><br>私たちはあなたの能力を信じています。そして、あなたにも私たちを信じてほしいと思っています。
+                    <br><br><b>ここに来れば、あなたは変われます</b>。
                 </p>
             </div>
 
@@ -103,7 +103,7 @@
                     <tr class="graduate-requirements-tr">
                         <td class="graduate-requirements-td">募集人数</td>
                         <td class="graduate-requirements-td">若干名</td>
-                        <td class="graduate-requirements-td">昨年度採用4名</td>
+                        <td class="graduate-requirements-td">昨年度採用実績：4名</td>
                     </tr>
                     <tr class="graduate-requirements-tr">
                         <td class="graduate-requirements-td">研修期間</td>
@@ -130,29 +130,33 @@
 
             <div class="graduate-block">
                 <p class="graduate-title">研修の流れ</p>
-                <p>内定・入社手続き</p>
-                <p>内定通知後、入社に必要な書類をご提出いただきます。
+                <p class="graduate-training-subtitle">内定・入社手続き</p>
+                <p class="graduate-training-text">
+                    内定通知後、入社に必要な書類をご提出いただきます。
                     <br>提出書類の確認が完了した時点で、仮社員番号（<b>EMP-0000</b>）が発番されます。
                     <br>この番号は研修修了まで使用されます。
                 </p>
-                <p>研修センター入所</p>
-                <p>入社日より、自社ビル内の研修センターへ入所していただきます。
+                <p class="graduate-training-subtitle">研修センター入所</p>
+                <p class="graduate-training-text">
+                    入社日より、自社ビル内の研修センターへ入所していただきます。
                     <br>研修期間中は、センター内の社員寮をご利用ください。
                     <br>外出には事前申請が必要です。セキュリティ上のご協力をお願いしています。
                 </p>
-                <p>研修プログラムの受講</p>
-                <p>当社独自のカリキュラムに従い、思考の最適化・論理処理能力の向上を目的とした研修を受講していただきます。
+                <p class="graduate-training-subtitle">研修プログラムの受講</p>
+                <p class="graduate-training-text">
+                    当社独自のカリキュラムに従い、思考の最適化・論理処理能力の向上を目的とした研修を受講していただきます。
                     <br>研修期間は個人差がありますが、修了した社員は<b>例外なく</b>配属されています。
                 </p>
-                <p>配属・社員番号の発番</p>
-                <p>研修修了後、担当部署への配属が決定します。
-                    <br><b>正式な配属は</b>、同時に正式な社員番号が発番され、<b>EMP-0000は無効化されます</b>。
+                <p class="graduate-training-subtitle">配属・社員番号の発番</p>
+                <p class="graduate-training-text">
+                    研修修了後、担当部署への配属が決定します。
+                    <br><b>正式配属の場合</b>、同時に正式な社員番号が発番され、<b>EMP-0000は無効化されます</b>。
                     <br>以降、あなたは当社の一員として、社会を支え続けることになります。
                 </p>
             </div>
 
-            <div class="graduate-block">
-                <button>エントリーはこちらから</button>
+            <div class="graduate-entry">
+                <button class="graduate-entry-button" onclick="entryPageError()">＜エントリーはこちらから＞</button>
             </div>
         </div>
     </div>
@@ -161,6 +165,12 @@
     <div class="footer">
         <p class="footer-text">Copyright © Tecnic Techno Tech All Rights Reserved.</p>
     </div>
+
+    <script>
+        function entryPageError() {
+            alert('今期のエントリー受付は終了しました。');
+        }
+    </script>
 </body>
 
 </html>

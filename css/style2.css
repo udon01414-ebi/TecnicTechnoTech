@@ -187,8 +187,6 @@ body {
   position: relative;
 }
 
-.contents .spEmbedded-contact-text2 {}
-
 .contents .spEmbedded-contact-text3 {
   background-color: #aaa;
   padding: 5px 10px;
@@ -237,7 +235,18 @@ body {
   color: #aaa;
 }
 
-.contents .checkSpHumanResources-form button {
+.contents .checkSpHumanResources-form .hintButton {
+  margin: 5px 0;
+  padding: 5px 0;
+  width: 50%;
+  height: auto;
+  font-size: 10px;
+  background-color: #000;
+  color: #f66;
+  outline: 1px solid #f66;
+}
+
+.contents .checkSpHumanResources-form .submitButton {
   margin: 15px auto;
   padding: 10px 0;
   width: 100%;
@@ -247,8 +256,10 @@ body {
   outline: 1px solid #f66;
 }
 
-
-
+.contents .checkSpHumanResources-form .submitButton:hover,
+.contents .checkSpHumanResources-form .hintButton:hover {
+  background-color: #222;
+}
 
 
 

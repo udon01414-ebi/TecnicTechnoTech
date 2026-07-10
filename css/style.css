@@ -258,7 +258,6 @@ body {
   margin: auto;
   font-size: 20px;
   color: #000;
-  text-decoration: none;
   background-color: rgba(130, 150, 200);
   border-radius: 5px;
 }
@@ -317,7 +316,6 @@ body {
   left: 5%;
   font-size: 30px;
   color: #000;
-  text-decoration: none;
   background-color: rgba(130, 150, 200);
   border-radius: 5px;
 }
@@ -329,7 +327,6 @@ body {
   left: 50%;
   font-size: 30px;
   color: #000;
-  text-decoration: none;
   background-color: rgba(130, 150, 200);
   border-radius: 5px;
 }
@@ -352,7 +349,6 @@ body {
   margin: 25px;
   font-size: 30px;
   color: #000;
-  text-decoration: none;
   background-color: rgba(130, 150, 200);
   border-radius: 5px;
 }
@@ -513,7 +509,7 @@ body {
 }
 
 .contents .graduate-block {
-  width: 800px;
+  width: 600px;
   height: auto;
   margin: 50px auto;
   border: 1px solid #aaa;
@@ -526,8 +522,14 @@ body {
   width: 100%;
   height: auto;
   padding: 10px;
-  font-size: 25px;
+  font-size: 30px;
   border-left: 5px solid #cceeff;
+}
+
+.contents .graduate-about-text {
+  border-left: 4px solid #aaa;
+  padding: 10px;
+  margin-left: 20px;
 }
 
 .contents .graduate-requirements-table,
@@ -543,12 +545,141 @@ body {
 }
 
 .contents .graduate-requirements-td {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .contents .graduate-requirements-table:first-child {
   border: none;
 }
+
+.contents .graduate-training-subtitle {
+  width: 100%;
+  height: auto;
+  padding: 10px 0 10px 10px;
+  font-size: 30px;
+  border-bottom: 2px solid #000;
+}
+
+.contents .graduate-training-text {
+  border-left: 4px solid #aaa;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.contents .graduate-entry {
+  width: 600px;
+  height: auto;
+  margin: 50px auto;
+  background-color: #aaa;
+  padding: 0 30px 30px 30px;
+  border-radius: 5px;
+}
+
+.contents .graduate-entry-button {
+  width: 100%;
+  height: 80px;
+  margin: 30px auto 0 auto;
+  background-color: #cceeff;
+  border: 3px solid #88aaff;
+  font-size: 30px;
+}
+
+.contents .graduate-entry-button:hover {
+  background-color: #ccc;
+}
+
+
+
+
+
+.contents .iot {
+  background-color: #aaa;
+}
+
+.contents .iot-top {
+  width: 800px;
+  height: auto;
+  margin: 100px auto;
+  padding: 30px;
+  position: relative;
+  background-color: #fff;
+
+}
+
+.contents .iot-top-text1 {
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+  border-left: 3px solid #88aaff;
+  background-color: #cceeff;
+  position: relative;
+  font-size: 40px;
+}
+
+.contents .iot-top-text2 {
+  border-left: 4px solid #aaa;
+  margin-left: 20px;
+  padding-right: 80px;
+  font-size: 20px;
+}
+
+.contents .iot-block {
+  width: 600px;
+  height: auto;
+  margin: 20px auto;
+  padding: 30px;
+  position: relative;
+  background-color: #fff;
+}
+
+.contents .iot-title {
+  width: 100%;
+  height: auto;
+  border-left: 3px solid #88aaff;
+  position: relative;
+  font-size: 35px;
+}
+
+.contents .iot-list {
+  list-style: none;
+}
+
+.contents .iot-list li {
+  border-top: 2px solid #333;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.contents .iot-list .product-title {
+  display: block;
+  width: 90%;
+  height: auto;
+  background-color: #cceeff;
+  border: 2px solid #aaa;
+}
+
+.contents .iot-list .detail {
+  display: block;
+  width: 30%;
+  padding: auto;
+}
+
+.contents .iot-list .detail:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.contents .iot-tech-list {
+  list-style: decimal;
+}
+
+.contents .iot-tech-list li {
+  font-size: 18px;
+  border-bottom: 2px solid #333;
+  margin-right: 150px;
+}
+
+
 
 
 
