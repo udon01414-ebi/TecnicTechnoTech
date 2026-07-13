@@ -263,6 +263,50 @@ body {
 
 
 
+
+
+.contents .emp0000-block {
+  width: 600px;
+  height: auto;
+  margin: 50px auto;
+}
+
+.contents .emp0000-text {
+  color: #ddd;
+  font-size: 15px;
+}
+
+.contents .emp0000-button {
+  color: #000;
+  background-color: #f66;
+  font-size: 60px;
+}
+
+.contents .emp0000-button:hover {
+  background-color: #faa;
+}
+
+
+
+
+
+.contents .end-text1 {
+  margin: 500px auto;
+  color: #aaa;
+  text-align: center;
+}
+
+.contents .end-text2 {
+  margin: 100px 100px;
+  color: #f66;
+  text-align: right;
+  font-size: 25px;
+}
+
+
+
+
+
 .footer {
   position: relative;
   width: 100%;

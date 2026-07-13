@@ -75,58 +75,14 @@
     </header>
 
     <div class="contents">
-        <div class="checkSpHumanResources-top">
-            <p class="title-text">特別人事部　社員照会フォーム</p>
-            <p class="checkSpHumanResources-top-text">※ 本フォームは社内関係者専用です。入力情報はすべて記録されます。</p>
-        </div>
-
-        <div class="checkSpHumanResources-form">
-            <p>担当人事部長の氏名（苗字）</p>
-            <input type="text" id="humanResourcesName" name="humanResourcesName" placeholder="例：山田">
-            <p>担当人事部長の社員番号</p>
-            <input type="text" id="humanResourcesNumber" name="humanResourcesNumber" placeholder="例：EMP-1234">
-            <p>照会対象の社員番号</p>
-            <input type="text" id="employeeNumber" name="employeeNumber" placeholder="例：EMP-1234">
-            <p>照会パスワード</p>
-            <input type="password" id="Password" name="Password" placeholder="パスワードを入力(英大文字)">
-            <button class="hintButton" id="hintButton" onclick="hint()">パスワードを忘れた場合はこちら</button>
-            <button type="submit" class="submitButton" id="submitButton"
-                onclick="window.setTimeout( checkEmployee, 500 )">照会する</button>
-        </div>
+        <p class="end-text1">全ての特別社員が解放された。</p>
+        <p class="end-text2">END</p>
     </div>
 
 
     <div class="footer">
         <p class="footer-text">Copyright © Tecnic Techno Tech All Rights Reserved.</p>
     </div>
-
-    <script>
-        function hint() {
-            alert('IoTシステム開発　4-2-4-2-7-4-5-2')
-        }
-        function checkEmployee() {
-            var humanResourcesName = document.getElementById("humanResourcesName").value;
-            var humanResourcesNumber = document.getElementById("humanResourcesNumber").value;
-            var employeeNumber = document.getElementById("employeeNumber").value;
-            var password = document.getElementById("Password").value;
-
-            if (humanResourcesName === "森" && humanResourcesNumber === "EMP-0022" && employeeNumber === "EMP-0000" && password === "TASUKETE") {
-                alert("照会が成功しました。ページを移行します。");
-                window.location.href = "employee-spHumanResources-0000.html";
-            } else if (humanResourcesName === "" || humanResourcesNumber === "" || employeeNumber === "" || password === "") {
-                alert("すべての項目を入力してください。");
-            } else if (humanResourcesName !== "森") {
-                alert("担当人事部長の氏名が正しくありません。");
-            } else if (humanResourcesNumber !== "EMP-0022") {
-                alert("担当人事部長の社員番号が正しくありません。");
-            } else if (password !== "TASUKETE") {
-                alert("照会パスワードが正しくありません。");
-            } else {
-                alert("入力情報に誤りがあります。");
-            }
-        }
-    </script>
-
 </body>
 
 </html>
