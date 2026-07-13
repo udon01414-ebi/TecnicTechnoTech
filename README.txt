@@ -62,3 +62,15 @@
 ・TecnicTechnoTechフォルダー内のものは「README.txt」と「top.html」以外は開かないでください。
 
 
+
+
+
+
+
+
+
+
+
+
+2026/7/13 製作途中
+ver0.1
